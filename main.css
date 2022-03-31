@@ -1,0 +1,32 @@
+html {
+    background-color: rgb(228, 225, 225);
+}
+.boxes {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    background-color: gray;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(114, 112, 112);
+    border-color:rgb(224, 218, 218);
+    padding-bottom: 2px;
+}
+.darkMode {
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgb(168, 165, 165);
+    background-color: rgb(34, 33, 33);
+}
+.darkMode:hover{
+    border-color: rgb(173, 170, 170);
+    background-color: rgb(46, 44, 44);
+}
